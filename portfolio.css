@@ -1,0 +1,94 @@
+.header {
+    background: rgb(214, 213, 213);
+    overflow: hidden;
+    padding: 2px 2px;
+    box-shadow: 8px 8px 8px rgba(0,0,0,0.2);
+}
+.header a {
+    float: left;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px; 
+    border-radius:4px;
+    padding: 12px;
+    
+}
+.name {
+    font-size: 30px;
+    font-weight: bold;
+    color: white; 
+    text-align: left;
+    margin-left: 10px;
+}
+.navbar {
+    float: right;
+    margin-top: -65px;
+}
+.header a:hover {
+    background-color:grey;
+    color: black;
+}
+.title {
+    text-align: center;
+    font-size: 48px;
+}
+.statementone {
+    text-align: center;
+    font-size: 24px;
+}
+.subsection1 {
+    display: inline-flex;
+}
+.statement2 {
+    font-size: 24px;
+    text-align: left;
+    max-width: 500px;
+    margin-left: 250px;
+    background-color: grey;
+    border-radius: 24px;
+    padding: 5px;
+}
+.portfoliopic1 {
+    height: auto;
+    width: auto;
+    max-height: 500px;
+    max-width: 500px;
+    margin-left: 100px;
+    padding: 10px;
+    border-radius: 25px;
+}
+.title2 {
+    font-size: 26px;
+
+}
+.section1 {
+    background-color: rgb(214, 213, 213);
+}
+.statement3 {
+    font-size: 24px;
+    text-align: left;
+    max-width: 500px;
+    margin-left: 250px;
+    background-color: grey;
+    border-radius: 24px;
+    padding: 5px;
+}
+.subsection2 {
+    display:inline-flex;
+}
+.portfoliopic2 {
+    height: auto;
+    width: auto;
+    max-height: 500px;
+    max-width: 500px;
+    margin-left: 100px;
+    padding: 10px;
+    border-radius: 25px;
+}
+.title3 {
+    font-size: 26px;
+}
+.section2 {
+    background-color: rgb(214, 213, 213);
+}
