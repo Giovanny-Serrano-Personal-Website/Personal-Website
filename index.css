@@ -1,82 +1,42 @@
 .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    }
     
-    overflow: hidden;
-    padding: 2px 2px;
+    .name {
+    font-size: 24px;
+    }
     
-}
-.header a {
-    float: left;
-    color: black;
+    .navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+    }
+    
+    .mainpage {
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .home1 {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
     text-align: center;
-    text-decoration: none;
-    font-size: 12px; 
-    border-radius:4px;
-    padding: 12px;
+    }
     
-}
-.name {
-    font-size: 30px;
-    font-weight: bold;
-    color: black; 
-    text-align: left;
-    margin-left: 10px;
-}
-.navbar {
-    float: right;
-    margin-top: -65px;
-}
-.header a:hover {
-    background-color:grey;
-    color: black;
-}
-.mainpage {
-    background-color:aliceblue;
-    background-size: cover;
-}
-.mainlist {
-    text-decoration: none;
-    list-style: none;
-    padding-left: 12px;
-    float: left;
-    margin-top: 680px;
-    font-size: 12px;
-}
-.item{
-    padding-top: 12px;
-    padding-bottom: 12px
-}
-.intro2{
-    font-size: 40px;
-    text-align: left;
-    max-width: 300px;
-    background-color: lightslategray;
-    margin-left: 175px;
-    margin-top: 75px;
-    border-radius: 25px;
-    padding: 10px;
-    color:aliceblue;
-}
-.codepic{
-    float: right;
-    margin-right: 50px;
-    margin-left: 50px;
-    max-height: 450px;
-    max-width: 650px;
-    margin-top: 75px;
-    border-radius: 25px;
-}
-.maincontent {
-    display:inline-flex;
+    .intro1 {
+    font-size: 36px;
 
-}
-.intro3 {
-    font-size: 40px;
-    text-align: left;
-    max-width: 300px;
-    background-color: lightslategray;
+
     
-    margin-top: 75px;
-    border-radius: 25px;
-    padding: 10px;
-    color:aliceblue;
-}
+    /* Media Query for Responsive Design */
+    @media only screen and (max-width: 768px) {
+    .home1, .home2 {
+    padding: 30px;
+    }
