@@ -53,3 +53,8 @@
     .home1, .home2 {
     padding: 30px;
     }
+    /* Media Query for Responsive Design */
+    @media only screen and (max-width: 768px) {
+    .home1, .home2 {
+    padding: 30px;
+    }
