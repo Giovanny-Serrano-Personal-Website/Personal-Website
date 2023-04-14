@@ -1,16 +1,28 @@
 /* Header styling */
 .header {
-    background-color: #333;
+    background: rgb(214, 213, 213);
+    overflow: hidden;
+    padding: 2px 2px;
+    box-shadow: 8px 8px 8px rgba(0,0,0,0.2);
+}
+.header a {
+    float: left;
     color: white;
-    padding: 10px;
-  }
-  
-  .name {
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px; 
+    border-radius:4px;
+    padding: 12px;
+    
+}
+.name {
     font-size: 30px;
-    margin: 0;
-  }
-  
-  .navbar {
+    font-weight: bold;
+    color: white; 
+    text-align: left;
+    margin-left: 10px;
+}
+.navbar {
     float: right;
     margin-top: -65px;
 }
@@ -36,7 +48,7 @@
     margin: 20px;
   }
   
-  /* Section 1 styling */
+ 
   .section1 {
     background-color: white;
     padding: 50px;
