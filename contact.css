@@ -1,0 +1,84 @@
+.header {
+    background: rgb(214, 213, 213);
+    overflow: hidden;
+    padding: 2px 2px;
+    box-shadow: 8px 8px 8px rgba(0,0,0,0.2);
+}
+.header a {
+    float: left;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px; 
+    border-radius:4px;
+    padding: 12px;
+    
+}
+.name {
+    font-size: 30px;
+    font-weight: bold;
+    color: white; 
+    text-align: left;
+    margin-left: 10px;
+}
+.navbar {
+    float: right;
+    margin-top: -65px;
+}
+.header a:hover {
+    background-color:grey;
+    color: black;
+}
+main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    }
+    
+    h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    }
+    
+    .form {
+    background-color: #f7f7f7;
+    padding: 30px;
+    }
+    
+    label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    }
+    
+    input[type="text"], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 16px;
+    }
+    
+    input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    }
+    
+    input[type="submit"]:hover {
+    background-color: #555;
+    }
+    
+    /* Media Query for Responsive Design */
+    @media only screen and (max-width: 768px) {
+    main {
+    padding: 10px;
+    }
+    }
